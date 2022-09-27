@@ -18,7 +18,6 @@ namespace PlatformService.Models
             if(platform != null)
             {
                 _context.Platforms.Add(platform);
-                _context.SaveChanges();
             }
         }
 
